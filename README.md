@@ -41,7 +41,7 @@ git clone -b v13.x  https://github.com/python-telegram-bot/python-telegram-bot -
 #Lets install it...
 cd python-telegram-bot
 ```
-Now let's perform the installation using the command, `inline (*sudo*)` to install. Because the installer requires privileges to install in the same location where python3 is installed.
+Now let's perform the installation using the command, *(sudo)* to install. Because the installer requires privileges to install in the same location where python3 is installed.
 
 ```
 sudo python3 setup.py install
