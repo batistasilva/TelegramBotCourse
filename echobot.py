@@ -31,8 +31,6 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-print(TOKEN)
-
 # Define a few command handlers. These usually take the two arguments update and
 # context.
 def start(update: Update, context: CallbackContext) -> None:
@@ -57,7 +55,7 @@ def echo(update: Update, context: CallbackContext) -> None:
 def main() -> None:
     """Start the bot."""
     # Create the Updater and pass it your bot's token.
-    updater = Updater("5603564198:AAH2Ya98-ThIDWwQNBY5jCjCOm0MpyGZcGE")
+    updater = Updater(TOKEN)
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
