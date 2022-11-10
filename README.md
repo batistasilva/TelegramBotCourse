@@ -1,12 +1,11 @@
 ### TelegramBotCourse
-Just some examples from (course/tutorial) from TelegramBot, using version from [python-telegram-bot-13.13], that version was the only version that i had sucess in my [debian 11] system, with [python version 3.9 or 3.11].
+Just some examples from (course/tutorial) from TelegramBot, using version from [python-telegram-bot-13.13  or 14], that version was the only version that i had sucess in my [debian 11] system, with [python version 3.9 or 3.11].
 
 All examples posted here was tested by me in my system, and a telegram-rob created by `@BotFather`, in my telegram account.
 
 Step by step to get a positive result. Thus avoiding headaches like I had at the beginning of my apprenticeship.
 
-###Installing Python:
-
+### Installing Python
 First install python 3.9 or high. link to [download:](https://www.python.org/downloads/)
 
 ```bash
@@ -32,7 +31,7 @@ On this time you will have python installed in your system. Just for test run:
 ```
 python --version # If you get command not found. Try: python3 --version
 ```
-###Installing python-telegram-bot-13.14 
+### Installing python-telegram-bot-13.14
 That is the latest version to using without surprise...👍
 Lets clone the latest version: 
 
