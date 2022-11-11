@@ -68,13 +68,13 @@ Now it's a time to start your telegram application, and create our first bot to 
  ![TutorialBot.png](images%2FBotName.png)
  
 + Now, it's time to define a user to our bot, that shoul be tutorialuser_bot... As in the image below.
- ![TutorialUserBotName.png](images%2FTutorialUserBotName.png)
++ ![TutorialUserBotName.png](images%2FTutorialUserBotName.png)
  
-+ Now, it's time to take note of our Token, to use it in our application... It should look like what we see in the image below... Note about the Token: It should not be shared with anyone else... If you want to have access problems with it..
- ![TakenNotesShort.png](images%2FTakenNotesShort.png)
++ Now, it's time to take note of our Token, to use it in our application... It should look like what we see in the image below... Note about the Token: It should not be shared with anyone else... If you want to have access problems with it.
++ ![TakenNotesShort.png](images%2FTakenNotesShort.png)
  
-+ Now, we will testing our bot... Following step below... Just click on your bot name where it is displayed in the image text...
- ![TestingYourBot-1.png](images%2FTestingYourBot-1.png)
++ Now, we will testing our bot... Following step below... Just click on your bot name where it is displayed in the image text.
++ ![TestingYourBot-1.png](images%2FTestingYourBot-1.png)
  
 + Next... just click `/Start`
 + ![TestingYourBot-2.png](images%2FTestingYourBot-2.png)
