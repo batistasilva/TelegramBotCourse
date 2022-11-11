@@ -47,7 +47,7 @@ git clone -b v13.x  https://github.com/python-telegram-bot/python-telegram-bot -
 cd python-telegram-bot
 ```
 
-Now let's perform the installation using the command, <c>(sudo)</c> to install. Because the installer requires privileges to install in the same location where python3 is installed.
+Now let's perform the installation using the command, <c>**(sudo)**</c> to install. Because the installer requires privileges to install in the same location where python3 is installed.
 
 ```
 sudo python3 setup.py install
