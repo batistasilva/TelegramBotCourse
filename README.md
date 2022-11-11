@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="./style.css"/>
 
 ### TelegramBotCourse
 Just some examples from (course/tutorial) from TelegramBot, using version from [python-telegram-bot-13.13  or 14], that version was the only version that i had sucess in my [debian 11] system, with [python version 3.9 or 3.11].
