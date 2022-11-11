@@ -48,6 +48,11 @@ sudo python3 setup.py install
 
 ```
 
+<style>
+c {
+    color: #ff003b;
+    font-weight: bold;
+    font-size: 15pt;
+}
+</style>
 
-
-<link rel="stylesheet" href="style.css"/>
