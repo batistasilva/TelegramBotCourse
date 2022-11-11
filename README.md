@@ -1,4 +1,4 @@
-<style>
+<style type="text/css">
 c {
     color: #ff003b;
     font-weight: bold;
