@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 ### TelegramBotCourse
@@ -51,8 +51,46 @@ Now let's perform the installation using the command, 🔓<c>**(sudo)**</c> to i
 
 ```
 sudo python3 setup.py install
-
 ```
+### After Installation...
+Now it's a time to start your telegram application, and create our first bot to use in the course.
+ 
++ First open telegram app, and call botfather, in the search bar, like: @BotFather..
+ ![BotFatherStart-Short.png](images%2FBotFatherStart-Short.png)
+ 
++ Now click in `<start>`, like in the image below...
+ ![BotFatherStartShort-1.png](images%2FBotFatherStartShort-1.png)
+ 
++ Now we can see the menu options in this image below and select the first option from the menu to create our bot.
+ ![BotFather-after-start.png](images%2FBotFather-after-start.png)
+ 
++ Now, it's time to give our bot a name, as in the image below. We can call it: TutorialBot..
+ ![TutorialBot.png](images%2FBotName.png)
+ 
++ Now, it's time to define a user to our bot, that shoul be tutorialuser_bot... As in the image below.
+ ![TutorialUserBotName.png](images%2FTutorialUserBotName.png)
+ 
++ Now, it's time to take note of our Token, to use it in our application... It should look like what we see in the image below... Note about the Token: It should not be shared with anyone else... If you want to have access problems with it..
+ ![TakenNotesShort.png](images%2FTakenNotesShort.png)
+ 
++ Now, we will testing our bot... Following step below... Just click on your bot name where it is displayed in the image text...
+ ![TestingYourBot-1.png](images%2FTestingYourBot-1.png)
+ 
++ Next... just click `/Start`
++ ![TestingYourBot-2.png](images%2FTestingYourBot-2.png)
+ 
++ Next... Writing something to test, and press `<enter>`
++ ![HelloWorldToBot.png](images%2FHelloWorldToBot.png)
 
++ Next...
++ ![HelloWorld-2.png](images%2FHelloWorld-2.png)
+
+### Preparation is done..! 
+From this moment. We are ready to start the course. In other words!, We will be able to test all the examples that we find for the version that has been installed on our system. That is (v13.x and v14.x).👍
+
+Now from that moment, we will start testing the examples with their explanations. I will put each one in an individual folder to facilitate the tests, and also to have the explanations individually.
+
+ 
+## With little patience everything will be fine, from now on... 🙏
 
 
