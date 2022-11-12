@@ -1,5 +1,7 @@
-/.git/
-/.idea/
+.project/
+.pydevproject/
+.git/
+.idea/
 *.py~
 *.gitignore~
 *~
