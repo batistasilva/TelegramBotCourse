@@ -14,12 +14,16 @@ Basic Echobot example, repeats messages.
 Press Ctrl-C on the command line or send a signal to the process to stop the
 bot.
 """
-import os
-import logging
-from dotenv import load_dotenv
-from telegram import Update, ForceReply
+import os         # Iport used to  manipulate paths.
+import logging    # To display warning messages. just to help debug the app.
+from dotenv import load_dotenv   #To allow read paramns from .env file. To install: pip install python-dotenv
+from telegram import Update, ForceReply    #Telegram Lib to interact to user
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+
+#Calls the load_dotenv() function to get the Token from the file.
 load_dotenv()
+
+#Now get token from our .env file
 TOKEN = os.getenv('TOKEN')
 
 # Enable logging
