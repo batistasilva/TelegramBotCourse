@@ -130,8 +130,38 @@ if __name__ == '__main__':
 Finished all process. 
 Now it's time to test.
 
+Testing...
+For the test, we need to be in `[src]` folder.
 
+![](images/2022-11-17_17-36.png)
 
+The next step, is to see the application running, like in this image.
+
+![](images/2022-11-17_17-37.png)
+
+The next step, is to find our bot on telegram. like in this image.
+
+![](images/2022-11-17_17-29.png)
+
+The next step, is ckick in start bot, and ckick in event `[/start]`, like in this image.
+
+![](images/2022-11-17_17-30.png)
+
+The next step, is testing event with echo() function. like in this image.
+
+![](images/2022-11-17_17-31.png)
+
+The next step, is to discover that when an event does not exist, it will be answered with the echo() function, as in this image.
+
+![](images/2022-11-17_17-32.png)
+
+The next step, is to end the application from the command line like in this image...
+
+![](images/2022-11-17_17-38.png)
+
+Now it's over... It's time for everyone to improve on this little example.
+And create your applications more easily by studying the api.
+Good look...
 
 
  
