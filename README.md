@@ -91,7 +91,8 @@ From this moment. We are ready to start the course. In other words!, We will be 
 Now from that moment, we will start testing the examples with their explanations. I will put each one in an individual folder to facilitate the tests, and also to have the explanations individually.
 
 ### First example tested: [echobot.py](https://github.com/batistasilva/TelegramBotCourse/blob/main/01-bot-echobot/src/echobot.py)
- 
++ My work folder:[01-bot-chobot](https://github.com/batistasilva/TelegramBotCourse/tree/main/01-bot-echobot)
+
 ## With little patience everything will be fine, from now on... 🙏
 
 
