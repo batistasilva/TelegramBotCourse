@@ -1,11 +1,11 @@
 # Let's study and tests the first example: echobot.py
-Follow the Link on github: [`echobot.py`](https://github.com/python-telegram-bot/python-telegram-bot/blob/v13.x/examples/echobot.py)
-
+### Follow the Link on github: [`echobot.py`](https://github.com/python-telegram-bot/python-telegram-bot/blob/v13.x/examples/echobot.py) 
 This is probably the base for most of the bots made with `python-telegram-bot`. It simply replies to each text message with a message that contains the same text.
+
 ### Let's study the code:
 
 Starting at the beginning of the file, when the comments start...
-From lines 6 to 16...
+### From lines, 6 to 16...
 ```
 """
 Simple Bot to reply to Telegram messages.
@@ -24,7 +24,7 @@ In the comment above it says that the bot acts like a telegram chat...
 Also, it is in an endless loop waiting for a command. Which are defined by functions `[start. help, echo]`.
 It also says that we can stop it by pressing the keys on our keyboard, `[Ctrl + C]`, or even we can send the command from our operating system to terminate the running process.
 
-From lines 17 to 21...
+### From lines, 17 to 21...
 Start read libs import.
  + `[ import os]` - Just to allow to manipulate work folder. 
 
@@ -51,13 +51,13 @@ Start read libs import.
     + `[class Filters]` - Predefined filters for use as the filter argument of telegram.ext.MessageHandler.
     + `[class CallbackContext(Generic[UD, CD, BD])]` - This is a context object passed to the callback called by telegram.ext.Handler or by the telegram.ext.Dispatcher in an error handler added by telegram.ext.Dispatcher.add_error_handler or to the callback of a telegram.ext.Job.
   
-From line 24:
+### From line 24:
 Calls the function responsible for reading parameters from the `[.env]` file. It will read our Token from there, and other parameters we can save there.
 
-From line 27:
+### From line 27:
 `[TOKEN = os.getenv('TOKEN')]` - Get our previously loaded `TOKEN` and set it to variable `[TOKEN]`, to be used later.
 
-From lines 30 to 34:
+### From lines, 30 to 34:
 Enable the loggin, and calls the function responsible for monitoring our application and sending warning messages for us.
 
 ```` python
@@ -68,7 +68,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 ````
-From lines 38 to 44:
+### From lines, 38 to 44:
 Define the first function to interact with Telegram, `function[start]`.
 
 ```` python
@@ -80,7 +80,7 @@ def start(update: Update, context: CallbackContext) -> None:
         reply_markup=ForceReply(selective=True),
     )
 ````
-From lines 47 to 49:
+### From lines, 47 to 49:
 Define the second interaction function, `function[help_command]`
 
 ```` python
@@ -88,7 +88,7 @@ def help_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
     update.message.reply_text('Help!')
 ````
-From lines 53 to 55:
+### From lines, 53 to 55:
 Define third interaction function, `function[echo]`
 
 ```` python
@@ -96,7 +96,7 @@ def echo(update: Update, context: CallbackContext) -> None:
     """Echo the user message."""
     update.message.reply_text(update.message.text)
 ````
-From lines 57 to 81:
+### From lines, 57 to 81:
 Defines the sixth and last function, `function[main]`, and calls the controller to manage the trading process with telegram, and manages the generated events.
 
 ```` python
@@ -127,10 +127,10 @@ if __name__ == '__main__':
     main()
 
 ````
-Finished all process. 
+### Finished all process. 
 Now it's time to test.
 
-Testing...
+### Testing...
 For the test, we need to be in `[src]` folder.
 
 ![](images/2022-11-17_17-36.png)
@@ -159,9 +159,11 @@ The next step, is to end the application from the command line like in this imag
 
 ![](images/2022-11-17_17-38.png)
 
-Now it's over... It's time for everyone to improve on this little example.
+### Now it's over... 
+It's time for everyone to improve on this little example.
 And create your applications more easily by studying the api.
-Good look...
+
+### Good look...
 
 
  

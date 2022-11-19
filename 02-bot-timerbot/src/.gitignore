@@ -1,0 +1,6 @@
+*.py~
+*.gitignore~
+*~
+.env           
+#Just because of security for our telegram key and 
+#other informations that we can not send to github
